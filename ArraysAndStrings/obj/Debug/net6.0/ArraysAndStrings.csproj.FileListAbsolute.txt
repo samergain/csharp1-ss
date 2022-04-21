@@ -1,0 +1,15 @@
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\bin\Debug\net6.0\ArraysAndStrings.exe
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\bin\Debug\net6.0\ArraysAndStrings.deps.json
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\bin\Debug\net6.0\ArraysAndStrings.runtimeconfig.json
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\bin\Debug\net6.0\ArraysAndStrings.dll
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\bin\Debug\net6.0\ArraysAndStrings.pdb
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\obj\Debug\net6.0\ArraysAndStrings.csproj.AssemblyReference.cache
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\obj\Debug\net6.0\ArraysAndStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\obj\Debug\net6.0\ArraysAndStrings.AssemblyInfoInputs.cache
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\obj\Debug\net6.0\ArraysAndStrings.AssemblyInfo.cs
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\obj\Debug\net6.0\ArraysAndStrings.csproj.CoreCompileInputs.cache
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\obj\Debug\net6.0\ArraysAndStrings.dll
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\obj\Debug\net6.0\refint\ArraysAndStrings.dll
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\obj\Debug\net6.0\ArraysAndStrings.pdb
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\obj\Debug\net6.0\ArraysAndStrings.genruntimeconfig.cache
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\ArraysAndStrings\obj\Debug\net6.0\ref\ArraysAndStrings.dll

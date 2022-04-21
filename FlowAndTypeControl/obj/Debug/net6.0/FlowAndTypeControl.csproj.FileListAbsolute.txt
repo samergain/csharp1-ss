@@ -1,0 +1,15 @@
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\bin\Debug\net6.0\FlowAndTypeControl.exe
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\bin\Debug\net6.0\FlowAndTypeControl.deps.json
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\bin\Debug\net6.0\FlowAndTypeControl.runtimeconfig.json
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\bin\Debug\net6.0\FlowAndTypeControl.dll
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\bin\Debug\net6.0\FlowAndTypeControl.pdb
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\obj\Debug\net6.0\FlowAndTypeControl.csproj.AssemblyReference.cache
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\obj\Debug\net6.0\FlowAndTypeControl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\obj\Debug\net6.0\FlowAndTypeControl.AssemblyInfoInputs.cache
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\obj\Debug\net6.0\FlowAndTypeControl.AssemblyInfo.cs
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\obj\Debug\net6.0\FlowAndTypeControl.csproj.CoreCompileInputs.cache
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\obj\Debug\net6.0\FlowAndTypeControl.dll
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\obj\Debug\net6.0\refint\FlowAndTypeControl.dll
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\obj\Debug\net6.0\FlowAndTypeControl.pdb
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\obj\Debug\net6.0\FlowAndTypeControl.genruntimeconfig.cache
+C:\Users\samer\Desktop\Antra\cSharp\day1\ConsoleApp1-SS\FlowAndTypeControl\obj\Debug\net6.0\ref\FlowAndTypeControl.dll
