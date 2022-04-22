@@ -25,34 +25,7 @@ the array can have a reference to any other type of object.
 The Clone() method returns a new array (a shallow copy) object containing all the elements in the original array. 
 The CopyTo() method copies the elements into another existing array. Both perform a shallow copy.
 */
-using System.Collections;
-ArrayList list = new ArrayList();
-while (true)
-{
-    Console.WriteLine("Options: add to list ( + item ) | remove from list ( - item ) | clear list ( -- )");
-    string input = Console.ReadLine();
-    string operation = input.Substring(0, 2);
-    string entry = input.Substring(2);
-    Console.WriteLine(operation);
-    switch (operation)
-    {
-        case ("+ "):
-            list.Add(entry);
-            break;
-        case ("- "):
-            list.Remove(entry);
-            break;
-        case ("--"):
-            list.Clear();
-            break;
-        case ("xx"):
-            return;
-        default:
-            Console.WriteLine("Undefined Option!");
-            break;
-    }
-    foreach (string item in list)
-    {
-        Console.WriteLine(item);
-    }
-}
+
+string x = "http://www.gg.com";
+string y = x.Split("://")[0];
+Console.WriteLine(y);

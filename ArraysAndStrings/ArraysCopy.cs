@@ -31,7 +31,8 @@ namespace ArraysAndStrings
             }
             for (int i = 0; i < array1.Length; i++)
             {
-                Console.WriteLine($"item {i} in array1: {array1[i]} && item {i} in array2: {array2[i]}");
+                Console.WriteLine($"item {i} in array1: {array1[i]}");
+                Console.WriteLine($"item {i} in array2: {array2[i]}");
             }
 
         }

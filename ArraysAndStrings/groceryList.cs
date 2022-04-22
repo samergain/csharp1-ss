@@ -46,9 +46,6 @@ namespace ArraysAndStrings
                     case ("--"):
                         list.Clear();
                         break ;
-                    case ("xx"):
-                        return;
-                      
                     default:
                         Console.WriteLine("Undefined Option!");
                         break ;

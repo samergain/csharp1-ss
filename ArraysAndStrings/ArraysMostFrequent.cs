@@ -17,5 +17,17 @@ namespace ArraysAndStrings
 {
     internal class ArraysMostFrequent
     {
+        public void FrequentNums()
+        {
+            string input = Console.ReadLine();
+            string[] inputArray = input.Split(" ");
+            var duplicates = inputArray.GroupBy(x => x)
+              .Where(g => g.Count() > 1)
+              .Select(y => y.Key)
+              .ToList();
+
+            Console.WriteLine(String.Join(", ", duplicates));
+
+        }
     }
 }
