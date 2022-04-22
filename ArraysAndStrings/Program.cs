@@ -24,85 +24,35 @@ the array can have a reference to any other type of object.
 6. What’s the difference between the System.Array.CopyTo() and System.Array.Clone()?
 The Clone() method returns a new array (a shallow copy) object containing all the elements in the original array. 
 The CopyTo() method copies the elements into another existing array. Both perform a shallow copy.
-
 */
-
-/*
- * 1-
-Copying an Array
-Write code to create a copy of an array. First, start by creating an initial array. (You can use
-whatever type of data you want.) Let’s start with 10 items. Declare an array variable and
-assign it a new array with 10 items in it. Use the things we’ve discussed to put some values
-in the array.
-Now create a second array variable. Give it a new array with the same length as the first.
-Instead of using a number for this length, use the Lengthproperty to get the size of the
-original array.
-Use a loop to read values from the original array and place them in the new array. Also
-print out the contents of both arrays, to be sure everything copied correctly.
-*/
-int[] array1 = new int[10] {1,2,3,4,5,6,7,8,9,10};
-int[] array2 = new int[array1.Length];
-for (int i = 0; i < array1.Length; i++)
+using System.Collections;
+ArrayList list = new ArrayList();
+while (true)
 {
-    array2[i] = array1[i];
+    Console.WriteLine("Options: add to list ( + item ) | remove from list ( - item ) | clear list ( -- )");
+    string input = Console.ReadLine();
+    string operation = input.Substring(0, 2);
+    string entry = input.Substring(2);
+    Console.WriteLine(operation);
+    switch (operation)
+    {
+        case ("+ "):
+            list.Add(entry);
+            break;
+        case ("- "):
+            list.Remove(entry);
+            break;
+        case ("--"):
+            list.Clear();
+            break;
+        case ("xx"):
+            return;
+        default:
+            Console.WriteLine("Undefined Option!");
+            break;
+    }
+    foreach (string item in list)
+    {
+        Console.WriteLine(item);
+    }
 }
-for (int i = 0; i < array1.Length; i++)
-{
-    Console.WriteLine($"item {i} in array1: {array1[i]} && item {i} in array2: {array2[i]}");
-}
-
-/*
-2. Write a simple program that lets the user manage a list of elements. It can be a grocery list,
-"to do" list, etc. Refer to Looping Based on a Logical Expression if necessary to see how to
-implement an infinite loop. Each time through the loop, ask the user to perform an
-operation, and then show the current contents of their list. The operations available should
-be Add, Remove, and Clear. The syntax should be as follows:
-+ some item
-- some item
---
-Your program should read in the user's input and determine if it begins with a “+” or “-“ or
-if it is simply “—“ . In the first two cases, your program should add or remove the string
-given ("some item" in the example). If the user enters just “—“ then the program should
-clear the current list. Your program can start each iteration through its loop with the
-following instruction:
-Console.WriteLine("Enter command (+ item, - item, or -- to clear)):");
-
-
-3. Write a method that calculates all prime numbers in given range and returns them as array
-of integers
-static int[] FindPrimesInRange(startNum, endNum)
-{
-}
-
-
-4. Write a program to read an array of n integers (space separated on a single line) and an
-integer k, rotate the array right k times and sum the obtained arrays after each rotation as
-shown below.
-After r rotations the element at position I goes to position (I + r) % n.
-The sum[] array can be calculated by two nested loops: for r = 1 ... k; for I = 0 ... n-1.
-Input Output Comments
-3 2 4 -1 3 2 5 6 rotated1[] = -1 3 2 4
-2 rotated2[] = 4 -1 3 2
-sum[] = 3 2 5 6
-1 2 3 4 5 12 10 8 6 9 rotated1[] = 5 1 2 3 4
-3 rotated2[] = 4 5 1 2 3
-rotated3[] = 3 4 5 1 2
-sum[] = 12 10 8 6 9
-
-
-5. Write a program that finds the longest sequence of equal elements in an array of integers.
-If several longest sequences exist, print the leftmost one.
-Input Output
-2 1 1 2 3 3 2 2 2 1 2 2 2
-1 1 1 2 3 1 3 3 1 1 1
-4 4 4 4 4 4 4 4
-0 1 1 5 2 2 6 3 3 1 1
-
-
-7. Write a program that finds the most frequent number in a given sequence of numbers. In
-case of multiple numbers with the same maximal frequency, print the leftmost of them
-Input Output
-4 1 1 4 2 3 4 4 1 2 4 9 3 The number 4 is the most frequent (occurs 5 times)
-7 7 7 0 2 2 2 0 10 10 10 The numbers 2, 7 and 10 have the same maximal
-frequence (each occurs 3 times). The leftmost of them is 7.
-*/
